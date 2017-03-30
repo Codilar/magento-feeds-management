@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>js_css</type><name>prototype/windows/themes/default.css</name></action>
+            <action method="addCss"><name>lib/prototype/windows/themes/magento.css</name></action>
+            <action method="addJs"><script>codilar/feeds.js</script></action>
+            <action method="addCss"><name>codilar/feeds.css</name></action>
+            <action method="setCanLoadExtJs"><flag>1</flag></action>
+            <action method="setCanLoadRulesJs"><flag>1</flag></action>
+            <action method="addItem"><type>js</type><name>extjs/ext-tree.js</name><params/></action>
+            <action method="addItem"><type>js</type><name>extjs/fix-defer.js</name><params/></action>
+            <action method="addItem"><type>js</type><name>extjs/ext-tree-checkbox.js</name><params/></action>
+            <action method="addItem"><type>js</type><name>mage/adminhtml/rules.js</name><params/></action>
+            <action method="addItem"><type>js_css</type><name>extjs/resources/css/ext-all.css</name><params/></action>
+        </reference>
+    </default>
+    <adminhtml_feeds_index>
+        <reference name="content">
+            <block type="feeds/adminhtml_feeds" name="codilar_feeds" />
+        </reference>
+    </adminhtml_feeds_index>
+</layout>
