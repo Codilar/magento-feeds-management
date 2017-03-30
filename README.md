@@ -7,4 +7,4 @@ The Feeds Format and File Format can be defined as per requirement before genera
 
 The Feeds can be generated in xml,csv and josn formats.
 
-For usage instructions and more details you can visit [article at codilar.com](http://codilar.com/).
+For more details you can visit [codilar.com](http://codilar.com/).
